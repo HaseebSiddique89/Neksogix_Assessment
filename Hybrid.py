@@ -6,7 +6,6 @@ from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
-
 with Chrome() as driver:
     wait = WebDriverWait(driver, 15)
     driver.get("https://www.youtube.com/watch?v=pgPUesOIgm0")
@@ -22,10 +21,8 @@ with Chrome() as driver:
 
     # Parse comments with BeautifulSoup
     comments = soup.select("#content-text")
+    timestamps = soup.select("#published-time-text")
+    users = soup.select("#author-text span")
 
-    for comment in comments:
-        print(comment.get_text(strip=True))
-
-# in this code, I used BeautifulSoup to parse the HTML content after scrolling to load comments. 
-# Scrolling is done using Selenium, and I extract the comments using CSS selectors. 
-# This approach allows for more flexibility in parsing and handling the HTML structure.
+    for comment, timestamp, user in zip(comments, timestamps, users):
+        print(comment.get_text(strip=True), " : ", timestamp.get_text(strip=True), "by", user.get_text(strip=True))
