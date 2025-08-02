@@ -1,0 +1,18 @@
+Scraping:
+https://scrapingking.medium.com/scrape-youtube-comments-using-python-and-selenium-43a7b39d80c3
+https://thepythoncode.com/article/extract-youtube-comments-in-python
+https://stackoverflow.com/questions/49907917/how-to-scrape-youtube-comments-using-beautifulsoup
+
+
+Sentiment Analysis:
+https://huggingface.co/cardiffnlp/twitter-roberta-base-sentiment-latest
+
+Preprocessing:
+https://www.geeksforgeeks.org/nlp/text-preprocessing-for-nlp-tasks/
+
+Logistic Regression:
+https://www.geeksforgeeks.org/machine-learning/understanding-logistic-regression/
+
+Classification Report:
+https://www.geeksforgeeks.org/machine-learning/confusion-matrix-machine-learning/
+

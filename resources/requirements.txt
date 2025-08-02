@@ -1,0 +1,10 @@
+pandas
+openpyxl
+contractions
+emoji
+pyspellchecker
+beautifulsoup4
+selenium
+scikit-learn
+transformers
+torch 

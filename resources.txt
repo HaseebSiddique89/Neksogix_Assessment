@@ -1,3 +1,0 @@
-https://scrapingking.medium.com/scrape-youtube-comments-using-python-and-selenium-43a7b39d80c3
-https://thepythoncode.com/article/extract-youtube-comments-in-python
-https://stackoverflow.com/questions/49907917/how-to-scrape-youtube-comments-using-beautifulsoup
